@@ -20,7 +20,9 @@ RUN curl -fsL "https://github.com/1player/host-spawn/releases/download/${host_sp
 ENV fastfetch_version="1.11.0"
 RUN curl -fsL "https://github.com/LinusDierheimer/fastfetch/releases/download/${fastfetch_version}/fastfetch-${fastfetch_version}-Linux.tar.gz" | tar -xzC / --strip-components=1
 
-RUN   ln -fs /bin/sh /usr/bin/sh && \
+RUN   apk update && \
+      apk upgrade && \
+      ln -fs /bin/sh /usr/bin/sh && \
       ln -fs /usr/bin/distrobox-host-exec /usr/local/bin/distrobox && \
       ln -fs /usr/bin/distrobox-host-exec /usr/local/bin/docker && \
       ln -fs /usr/bin/distrobox-host-exec /usr/local/bin/flatpak && \ 
