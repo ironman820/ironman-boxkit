@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.0 (2023-04-19)
+
+
+### Features
+
+* :sparkles: Install Image Magic and poppler-utils ([005da41](https://github.com/ironman820/ironman-boxkit/commit/005da416a2e9b43e10c813aa3c65f9bc8746770b))
+* :sparkles: Replaced some applications with my preferred ([a92bf80](https://github.com/ironman820/ironman-boxkit/commit/a92bf80cd0860d8c6812b35474d534d4139bbf1d))
+
 ## 1.0.0 (2023-02-04)
 
 
