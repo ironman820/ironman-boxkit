@@ -17,8 +17,8 @@ RUN curl -fsL "https://github.com/muesli/duf/releases/download/v${duf_version}/d
 ENV host_spawn_version="1.2.1"
 RUN curl -fsL "https://github.com/1player/host-spawn/releases/download/${host_spawn_version}/host-spawn-$(uname -m)" -o /usr/bin/host-spawn && \
       chmod +x /usr/bin/host-spawn
-ENV fastfetch_version="1.11.0"
-RUN curl -fsL "https://github.com/LinusDierheimer/fastfetch/releases/download/${fastfetch_version}/fastfetch-${fastfetch_version}-Linux.tar.gz" | tar -xzC / --strip-components=1
+# ENV fastfetch_version="1.11.0"
+# RUN curl -fsL "https://github.com/LinusDierheimer/fastfetch/releases/download/${fastfetch_version}/fastfetch-${fastfetch_version}-Linux.tar.gz" | tar -xzC / --strip-components=1
 
 RUN   apk update && \
       apk upgrade && \
