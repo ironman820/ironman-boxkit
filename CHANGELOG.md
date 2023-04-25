@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/ironman820/ironman-boxkit/compare/v1.0.0...v1.0.1) (2023-04-25)
+
+
+### Bug Fixes
+
+* :recycle: Replace fastfetch with neofetch ([3721036](https://github.com/ironman820/ironman-boxkit/commit/37210365c00ff4778e2a1faca26ecc21515f6b5f))
+
 ## 1.0.0 (2023-04-19)
 
 
